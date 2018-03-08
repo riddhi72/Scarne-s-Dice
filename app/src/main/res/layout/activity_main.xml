@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backdrop"
     tools:context="me.riddhi.gada.scarnsdice.MainActivity">
 
 
@@ -11,6 +12,7 @@
         android:id="@+id/userscore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#ffffff"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -22,6 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/userscore"
+        android:textColor="#ffffff"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
@@ -33,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/compscore"
+        android:textColor="#ffffff"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="10dp"
@@ -43,8 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/msg"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:rotation="540"
         app:srcCompat="@drawable/dice1" />
 
     <Button
